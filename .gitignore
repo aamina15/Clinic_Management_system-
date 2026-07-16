@@ -1,0 +1,61 @@
+# Dependencies
+node_modules/
+.pnp
+.pnp.js
+
+# Build outputs
+dist/
+build/
+out/
+.next/
+target/
+*.class
+*.jar
+*.war
+
+# Environment files
+.env
+.env.local
+.env.*.local
+!.env.example
+!.env.*.example
+
+# IDE
+.idea/
+*.iml
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+*.swp
+*.swo
+.DS_Store
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+test-results/
+playwright-report/
+
+# Spring Boot
+backend/.gradle/
+backend/gradle/
+backend/gradlew
+backend/gradlew.bat
+
+# Misc
+*.pem
+.vercel
+.turbo
+*.tsbuildinfo
+next-env.d.ts
+
+# Docker volumes
+postgres-data/

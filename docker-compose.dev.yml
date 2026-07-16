@@ -1,0 +1,13 @@
+# Development overrides — use with: docker compose -f docker-compose.yml -f docker-compose.dev.yml up
+services:
+  postgres:
+    ports:
+      - "${POSTGRES_PORT:-5432}:5432"
+
+  backend:
+    build:
+      target: build
+    volumes:
+      - ./backend/src:/app/src:ro
+    environment:
+      SPRING_DEVTOOLS_RESTART_ENABLED: "true"
