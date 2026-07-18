@@ -4,7 +4,7 @@ Spring Boot 3 REST API for the Smart Clinic Management System.
 
 ## Requirements
 
-- Java 21
+- Java 25
 - Maven 3.9+
 - PostgreSQL 16+
 
@@ -37,8 +37,8 @@ com.clinic.management
 
 ## Profiles
 
-| Profile | Usage        |
-| ------- | ------------ |
+| Profile | Usage                       |
+| ------- | --------------------------- |
 | `dev`   | Local development (default) |
-| `prod`  | Production deployment     |
-| `test`  | Unit/integration tests    |
+| `prod`  | Production deployment       |
+| `test`  | Unit/integration tests      |

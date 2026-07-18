@@ -7,7 +7,7 @@ A production-ready, scalable clinic management platform with role-based portals 
 | Layer      | Technology                                              |
 | ---------- | ------------------------------------------------------- |
 | Frontend   | Next.js 15, React 19, TypeScript, Tailwind, shadcn/ui   |
-| Backend    | Spring Boot 3, Java 21, Spring Security, JWT, Hibernate |
+| Backend    | Spring Boot 3, Java 25, Spring Security, JWT, Hibernate |
 | Database   | PostgreSQL (Supabase in production)                     |
 | Deployment | Vercel (FE) · Railway (BE) · Supabase (DB)              |
 
@@ -25,7 +25,7 @@ A production-ready, scalable clinic management platform with role-based portals 
 ## Prerequisites
 
 - **Node.js** 20+
-- **Java** 21
+- **Java** 25
 - **Maven** 3.9+
 - **Docker** & Docker Compose (optional, for local DB + backend)
 
